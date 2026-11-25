@@ -3,8 +3,8 @@
 import { useState, useContext } from 'react';
 import { useNavigate } from 'react-router';
 
-import { signIn } from '../services/authService';
-import { useAuth } from '../context/AuthContext';
+import { signIn } from '../../services/authService';
+import { useAuth } from '../../context/AuthContext';
 
 
 const SignInForm = ({}) => {

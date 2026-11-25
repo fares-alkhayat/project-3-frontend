@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router";
 import Navbar from "./components/Navbar";
-import SignupPage from "./pages/SignupPage";
+import SignupPage from "./pages/auth/SignupPage";
 import Homepage from "./pages/Homepage";
-import SignInPage from "./pages/SigninPage";
+import SignInPage from "./pages/auth/SigninPage";
 import Dashboard from "./pages/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 function App() {
